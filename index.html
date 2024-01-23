@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="display">
+        <div class="keys">
+            <button1 onclick="appendNumber('7')">7</button1>
+            <button1 onclick="appendNumber('8')">8</button1>
+            <button1 onclick="appendNumber('9')">9</button1>
+            <button1 onclick="appendOperator('*')">*</button1>
+        </div>
+        <div class="keys">
+            <button2 onclick="appendNumber('4')">4</button2>
+            <button2 onclick="appendNumber('5')">5</button2>
+            <button2 onclick="appendNumber('6')">6</button2>
+            <button2 onclick="appendOperator('-')">-</button2>
+        </div>
+        <div class="keys">
+            <button3 onclick="appendNumber('1')">1</button3>
+            <button3 onclick="appendNumber('2')">2</button3>
+            <button3 onclick="appendNumber('3')">3</button3>
+            <button3 onclick="appendOperator('+')">+</button3>
+        </div>
+        <div class="keys">
+            <button4 onclick="clearDisplay()">C</button4>
+            <button4 onclick="appendNumber('0')">0</button4>
+            <button4 onclick="calculateResult()">=</button4>
+            <button4 onclick="appendOperator('/')">/</button4>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
